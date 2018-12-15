@@ -1,0 +1,77 @@
+/* comment */
+
+/* Basic reset */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* I used the div element as a container
+    *** the margin property is used to create space around boxes.
+    *** the min-height property is used to set the minimum height of a box.
+*/
+/* div {
+  background-color: teal;
+  background-image: url(../img/big.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  margin: 20px;
+  min-height: 500px;
+} */
+
+/* The padding property is used to create some room inside paragraphs*/
+
+#nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 10px;
+  background-color: blueviolet;
+}
+
+#footer {
+  display: flex;
+  position: fixed;
+  background-color: blueviolet;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+}
+
+h6 {
+  color: aliceblue;
+}
+
+#outer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  background-color: beige;
+}
+
+li {
+  margin: 30px;
+}
+
+.boner {
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+  border: 2px solid black;
+}
+
+.snake {
+  background-color: green;
+}
+
+.head {
+  background-color: rgb(2, 77, 48);
+}
+
+.apple {
+  background-color: red;
+}
