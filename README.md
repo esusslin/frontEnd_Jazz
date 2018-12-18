@@ -2,4 +2,6 @@
 
 WorkShop of FrontEnd Templates and Tricks (HTML, CSS, Javascript)
 
-[Awesome Font Icons](https://fontawesome.com/v4.7.0/icons/)
+[Awesome Font Icons](fontawesome.com/)
+
+[Awesome Fonts from the Google](https://fonts.google.com/)

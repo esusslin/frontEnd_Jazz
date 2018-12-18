@@ -1,0 +1,85 @@
+* {
+  padding-bottom: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.41;
+}
+
+/* header start */
+#header {
+  background-color: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0, 1);
+  position: fixed;
+  width: 100%;
+}
+
+header a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: #010611;
+}
+
+header nav {
+  display: none;
+}
+
+header nav a {
+  display: block;
+  transition: all 0.4s;
+}
+
+header nav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #5e7ce2;
+}
+
+header #logo a {
+  font-size: 1.5em;
+  padding: 20px;
+  padding-left: 15px;
+  color: #5e7ce2;
+  font-weight: bold;
+}
+
+header #logo {
+  display: inline-block;
+  width: 70%;
+}
+
+header .nav-toggle {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+}
+/* header end */
+
+/* intro start */
+#intro {
+  min-height: 500px;
+  background-image: url(../img/intro.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position: 30%, 50%;
+}
+/* intro end */
+
+/* common components */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+img {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
