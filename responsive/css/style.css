@@ -186,6 +186,140 @@ header .nav-toggle {
 }
 /* join us end */
 
+/* sections start */
+#services {
+  background-color: #fff;
+}
+/* sections end */
+
+/* pricing start */
+.plan {
+  margin: 10px 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 7px solid #5e7ce2;
+  border-radius: 10px;
+}
+
+.plan-title {
+  font-size: 2em;
+  color: #5e7ce2;
+  padding: 15px 0px;
+  font-size: 1.2em;
+}
+
+.plan-price {
+  font-style: italic;
+  padding: 10px 0px;
+  font-size: 1.2em;
+}
+
+.plan li {
+  padding: 10px 0px;
+}
+/* pricing end */
+
+/* team start */
+.member {
+  margin: 15px 0px;
+  text-align: center;
+}
+.member-name {
+  padding: 5px 0px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.member-job {
+  font-size: 1.2em;
+  font-style: italic;
+  padding: 5px 0px;
+}
+
+.member-words {
+  padding: 5px 0px;
+  padding-bottom: 15px;
+}
+
+.social-links a {
+  color: #010611;
+  display: inline-block;
+  padding: 12px;
+}
+/* team end */
+
+/* contact start */
+form {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  background-color: #f4f4f4;
+  transition: border 0.4s, background-color 0.4s;
+}
+
+form input:hover,
+form input:focus,
+form textarea:hover,
+form textarea:focus {
+  border: 2px solid #f4f4f4;
+  background-color: #fff;
+}
+
+form textarea {
+  min-height: 90px;
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  padding: 5px 0px;
+}
+/* contact end */
+
+#map {
+  padding-bottom: 0px;
+}
+/* footer start */
+footer {
+  background-color: #142442;
+  color: #fff;
+}
+
+footer p {
+  padding: 10px 0px;
+}
+
+.info {
+  margin: 15px 0px;
+}
+
+footer a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+footer .info-title {
+  padding: 15px 0px;
+}
+
+footer .copyright {
+  text-align: center;
+}
+/* footer end */
+
 /* common code, shared code */
 
 .service {
