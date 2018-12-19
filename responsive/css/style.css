@@ -6,7 +6,7 @@
 
 body {
   background-color: #f4f4f4;
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   line-height: 1.41;
 }
 
@@ -16,6 +16,7 @@ body {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0, 1);
   position: fixed;
   width: 100%;
+  z-index: 99;
 }
 
 header a {
@@ -62,14 +63,190 @@ header .nav-toggle {
 /* intro start */
 #intro {
   min-height: 500px;
-  background-image: url(../img/intro.jpg);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../img/intro.jpg);
   background-size: cover;
   background-position: center;
   background-position: 30%, 50%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.intro-text {
+  position: absolute;
+  top: 180px;
+  text-align: center;
+}
+
+.intro-text h1 {
+  font-size: 1.7em;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.intro-text h1 span {
+  color: #5e7ce2;
+}
+
+.intro-text .call-to-action {
+  width: 60%;
+  margin: auto;
+}
+
+.intro-text .call-to-action .btn-bg {
+  width: 100%;
 }
 /* intro end */
 
-/* common components */
+/* about us start */
+#about-us {
+  background-color: #fff;
+  text-align: center;
+}
+
+/* about us end */
+
+/* by numbers start */
+
+#by-numbers {
+  background-color: #142442;
+  color: white;
+}
+
+.fact {
+  font-size: 2em;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.fact-icon {
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+.fact-text {
+  font-style: italic;
+}
+
+/* by numbers end */
+
+/* by works start */
+#works .section-title,
+#works .section-desc {
+  text-align: center;
+}
+
+.work {
+  margin: 20px 0px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.work-img {
+  height: 200px;
+  width: 100%;
+}
+
+.work-title {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* by works end */
+
+/* join us start */
+
+#join-us {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url(../img/work-with-us.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+}
+
+#join-us h5 {
+  margin-top: 20px;
+  padding: 10px 0px;
+  font-size: 1.3em;
+}
+
+#join-us h4 {
+  padding: 10px 0px;
+  font-size: 1.5em;
+}
+/* join us end */
+
+/* common code, shared code */
+
+.service {
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.service-icon {
+  font-size: 3em;
+  padding: 15px;
+  color: #5e7ce2;
+}
+
+.service-title {
+  padding: 5px 0px;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section {
+  padding-bottom: 30px;
+}
+.section-title {
+  padding: 15px;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section-title span {
+  color: #5e7ce2;
+}
+
+.section-desc {
+  padding: 15px 0;
+  padding-top: 5px;
+  font-style: italic;
+  text-align: center;
+}
+
+.call-to-action {
+  margin: 20px 0px;
+}
+
+.btn-bg {
+  text-decoration: none;
+  background-color: #5e7ce2;
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.4s, color 0.4s;
+  cursor: pointer;
+}
+
+.btn-bg:hover {
+  background-color: #fff;
+  color: #5e7ce2;
+}
+
 .container {
   max-width: 1000px;
   margin: auto;
